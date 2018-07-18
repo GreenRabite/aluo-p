@@ -839,6 +839,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			cursor: pointer;
 		}
 
 		.icon > .label {
@@ -3678,4 +3679,8 @@
 	margin-top: 130px;
 	margin-left: 25px;
 	vertical-align: middle;
+}
+
+.mr-20{
+	margin-right: 20px;
 }

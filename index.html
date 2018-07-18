@@ -1,15 +1,11 @@
 <!DOCTYPE HTML>
-<!--
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Andy Luo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/side.css" />
 		<link rel="shortcut icon" type="image/png" href="images/favicon/favicon-16x16.png"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -192,10 +188,10 @@
 									</div> -->
 									<div class="span-1-5 contact-container">
 										<ul class="contact-icons color1">
-											<a href="assets/resume/Andy_Luo_Resume.pdf" target="_blank"><li class="icon fa-file-text">Resume</a></li>
-											<a href="https://github.com/GreenRabite" target="_blank"><li class="icon fa-github">GitHub</a></li>
-											<a href="https://www.linkedin.com/in/andywluo/" target="_blank"><li class="icon fa-linkedin">LinkedIn</a></li>
-											<a href="mailto:andywluo@gmail.com" target="_blank"><li class="icon fa-envelope">andywluo@gmail.com</a></li>
+											<a href="assets/resume/Andy_Luo_Resume.pdf" target="_blank"><li id='resume-link' class="icon fa-file-text clickable" onclick="window.open('assets/resume/Andy_Luo_Resume.pdf')" style="cursor:pointer;">Resume</a></li>
+											<a href="https://github.com/GreenRabite" target="_blank"><li class="icon fa-github clickable" onclick="window.open('https://github.com/GreenRabite')">GitHub</a></li>
+											<a href="https://www.linkedin.com/in/andywluo/" target="_blank"><li class="icon fa-linkedin clickable" onclick="window.open('https://www.linkedin.com/in/andywluo/')">LinkedIn</a></li>
+											<a href="mailto:andywluo@gmail.com" target="_blank"><li class="icon fa-envelope clickable" onclick="window.open('mailto:andywluo@gmail.com')">andywluo@gmail.com</a></li>
 											<!-- <li class="icon fa-facebook"><a href="#">facebook.com/untitled</a></li> -->
 											<!-- <li class="icon fa-snapchat-ghost"><a href="#">@untitled-tld</a></li> -->
 											<!-- <li class="icon fa-instagram"><a href="#">@untitled-tld</a></li> -->
@@ -218,6 +214,7 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/side.js"></script>
 
 	</body>
 </html>
